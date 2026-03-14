@@ -39,7 +39,7 @@
 *   **Ghi đè Ngôn ngữ (Language Override)**: Tính năng cực mạnh cho phép thay đổi tên hiển thị của các Taxonomy (vd: Thể loại "Action" thành "Hành Động") cho từng site mà không làm thay đổi dữ liệu gốc trong database.
 *   **Taxonomy Filter**: Kiểm soát chặt chẽ những thể loại hoặc quốc gia phim nào được phép xuất hiện trên từng site cụ thể.
 
-### 5. Sức Mạnh Từ AI & Crawler (Đã mô tả ở bản trước)
+### 5. Sức Mạnh Từ AI & Crawler
 *   **AI Rewrite Content**: Tự động rewrite Title/Slug/Description qua OpenRouter (GPT-4, Claude 3...).
 *   **Crawler Đa Nguồn**: Hỗ trợ Ophim, MacCMS API, TMDB, vGo Share... với tốc độ cực nhanh.
 
