@@ -1,6 +1,15 @@
 # vGocms - Hệ Thống Quản Trị Nội Dung Phim & Video Hiệu Năng Cao (Multi-Site & AI Powered)
-
+# Website bán hàng: [https://demo-cms-vgo.vgo.codes](https://vgo.codes)
 **vGocms** là giải pháp CMS chuyên dụng cho việc xây dựng và quản trị mạng lưới website phim, video với quy mô lớn. Được phát triển trên nền tảng ngôn ngữ **Go (Golang)**, vGocms mang lại tốc độ xử lý vượt trội, khả năng chịu tải cực cao và hệ thống tự động hóa hoàn hảo.
+
+---
+
+## 🔗 Thông Tin Trải Nghiệm (Demo)
+
+*   **Trang Quản Trị (Admin)**: [https://demo-cms-vgo.vgo.codes](https://demo-cms-vgo.vgo.codes)
+    *   Tài khoản: `admin`
+    *   Mật khẩu: `admin123`
+*   **Trang Phim (Frontend Demo)**: [https://demo-vgo-1.vgo.codes/](https://demo-vgo-1.vgo.codes/)
 
 ---
 
@@ -51,6 +60,14 @@
 2.  **Khả năng nhân bản cực nhanh**: Tạo 1 site mới chỉ mất 5 phút với đầy đủ Menu, SEO và Phim.
 3.  **Tối ưu SEO tối đa**: Với AI Rewrite và Multi-site template, bạn sở hữu mạng lưới vệ tinh chất lượng cao, index cực nhanh.
 4.  **Chịu tải bền bỉ**: Golang đảm bảo server không bao giờ bị "treo" khi traffic tăng đột biến.
+
+---
+
+## 🛒 Thông Tin Mua Hàng & Hỗ Trợ
+
+*   **Sở hữu trọn bộ vGocms & Giao diện chuyên nghiệp ngay hôm nay.**
+*   **Telegram hỗ trợ cá nhân**: [@apiionline](https://t.me/apiionline)
+*   **Nhóm cộng đồng vGocms**: [t.me/vgocms](https://t.me/vgocms)
 
 ---
 **vGocms - Nền tảng vận hành đế chế Website phim tự động.**
