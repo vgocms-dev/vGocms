@@ -1,0 +1,33 @@
+{
+  "latest": "v1.1.0",
+  "releases": [
+    {
+      "version": "v1.1.0",
+      "date": "2026-03-16",
+      "changelog": [
+        "Thêm tính năng Tự động Cập nhật hệ thống từ GitHub",
+        "Thêm giao diện quản lý phiên bản với Changelog",
+        "Cải thiện hiệu năng Crawler",
+        "Sửa lỗi hiển thị trên trang Stats"
+      ],
+      "downloads": {
+        "linux_amd64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_amd64",
+        "linux_arm64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_arm64"
+      }
+    },
+    {
+      "version": "v1.0.0",
+      "date": "2026-03-01",
+      "changelog": [
+        "Phiên bản phát hành đầu tiên",
+        "Hỗ trợ Multi-site",
+        "Tích hợp AI OpenRouter",
+        "Crawler đa nguồn: OPhim, Maccms, TMDB, VgoShare"
+      ],
+      "downloads": {
+        "linux_amd64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_amd64",
+        "linux_arm64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_arm64"
+      }
+    }
+  ]
+}
