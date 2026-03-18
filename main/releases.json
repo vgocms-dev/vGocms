@@ -12,8 +12,8 @@
         "Tối ưu hóa SEO Metadata cho các trang danh sách phim"
       ],
       "downloads": {
-        "linux_amd64": "https://download.vgo.codes/vgocms_linux_amd64",
-        "linux_arm64": "https://download.vgo.codes/vgocms_linux_arm64"
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
       }
     },
     {
@@ -26,8 +26,8 @@
         "Sửa lỗi hiển thị trên trang Stats"
       ],
       "downloads": {
-        "linux_amd64": "https://download.vgo.codes/vgocms_linux_amd64",
-        "linux_arm64": "https://download.vgo.codes/vgocms_linux_arm64"
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
       }
     },
     {
@@ -40,8 +40,8 @@
         "Crawler đa nguồn: OPhim, Maccms, TMDB, VgoShare"
       ],
       "downloads": {
-        "linux_amd64": "https://download.vgo.codes/vgocms_linux_amd64",
-        "linux_arm64": "https://download.vgo.codes/vgocms_linux_arm64"
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
       }
     }
   ]
