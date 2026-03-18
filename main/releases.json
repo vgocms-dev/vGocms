@@ -1,6 +1,21 @@
 {
-  "latest": "v1.1.0",
+  "latest": "v1.2.0",
   "releases": [
+    {
+      "version": "v1.2.0",
+      "date": "2026-03-19",
+      "changelog": [
+        "Tích hợp Bộ lọc Video (Video Filters) cho các trang phân loại (Thể loại, Quốc gia...)",
+        "Tự động hiển thị Bộ lọc nâng cao khi có tiêu chí đang hoạt động",
+        "Sửa lỗi không tự động chọn filter trên các trang taxonomy",
+        "Tính năng Tự động Restart hệ thống sau khi cập nhật thành công",
+        "Tối ưu hóa SEO Metadata cho các trang danh sách phim"
+      ],
+      "downloads": {
+        "linux_amd64": "https://download.vgo.codes/vgocms_linux_amd64",
+        "linux_arm64": "https://download.vgo.codes/vgocms_linux_arm64"
+      }
+    },
     {
       "version": "v1.1.0",
       "date": "2026-03-16",
@@ -11,8 +26,8 @@
         "Sửa lỗi hiển thị trên trang Stats"
       ],
       "downloads": {
-        "linux_amd64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_amd64",
-        "linux_arm64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_arm64"
+        "linux_amd64": "https://download.vgo.codes/vgocms_linux_amd64",
+        "linux_arm64": "https://download.vgo.codes/vgocms_linux_arm64"
       }
     },
     {
@@ -25,8 +40,8 @@
         "Crawler đa nguồn: OPhim, Maccms, TMDB, VgoShare"
       ],
       "downloads": {
-        "linux_amd64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_amd64",
-        "linux_arm64": "https://github.com/vgocms-dev/vGocms/releases/v1.1.0/vgocms_linux_arm64"
+        "linux_amd64": "https://download.vgo.codes/vgocms_linux_amd64",
+        "linux_arm64": "https://download.vgo.codes/vgocms_linux_arm64"
       }
     }
   ]
