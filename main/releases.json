@@ -5,10 +5,10 @@
       "version": "v1.3.0",
       "date": "2026-03-19",
       "changelog": [
-        "Nâng cấp Bảo mật cấp Enterprise",
-        "Khắc phục lỗ hổng Cache Poisoning và chống tấn công DDoS tại API danh sách phim",
-        "Tối ưu hóa Hiệu năng & Khắc phục OOM",
-        "Giới hạn truy vấn tại API phim liên quan, ngăn chặn Full Table Scan và tràn RAM"
+        "Upgrade to Enterprise-grade Security",
+        "Mitigate Cache Poisoning vulnerabilities and prevent DDoS attacks on Movie List API",
+        "Optimize Performance & Fix OOM (Out of Memory) issues",
+        "Rate-limit Related Movies API to prevent Full Table Scans and RAM exhaustion"
       ],
       "downloads": {
         "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
@@ -19,11 +19,11 @@
       "version": "v1.2.0",
       "date": "2026-03-19",
       "changelog": [
-        "Tích hợp Bộ lọc Video (Video Filters) cho các trang phân loại (Thể loại, Quốc gia...)",
-        "Tự động hiển thị Bộ lọc nâng cao khi có tiêu chí đang hoạt động",
-        "Sửa lỗi không tự động chọn filter trên các trang taxonomy",
-        "Tính năng Tự động Restart hệ thống sau khi cập nhật thành công",
-        "Tối ưu hóa SEO Metadata cho các trang danh sách phim"
+        "Integrate Video Filters for taxonomy pages (Genre, Country, etc.)",
+        "Automatically toggle Advanced Filters when active criteria are present",
+        "Fix auto-selection issue for filters on taxonomy pages",
+        "Add Auto-Restart feature after successful system update",
+        "Optimize SEO Metadata for movie listing pages"
       ],
       "downloads": {
         "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
@@ -34,10 +34,10 @@
       "version": "v1.1.0",
       "date": "2026-03-16",
       "changelog": [
-        "Thêm tính năng Tự động Cập nhật hệ thống từ GitHub",
-        "Thêm giao diện quản lý phiên bản với Changelog",
-        "Cải thiện hiệu năng Crawler",
-        "Sửa lỗi hiển thị trên trang Stats"
+        "Add GitHub-based Auto-update feature",
+        "Add Version Management interface with Changelog",
+        "Improve Crawler performance",
+        "Fix display issues on Stats page"
       ],
       "downloads": {
         "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
@@ -48,10 +48,10 @@
       "version": "v1.0.0",
       "date": "2026-03-01",
       "changelog": [
-        "Phiên bản phát hành đầu tiên",
-        "Hỗ trợ Multi-site",
-        "Tích hợp AI OpenRouter",
-        "Crawler đa nguồn: OPhim, Maccms, TMDB, VgoShare"
+        "Initial release version",
+        "Support Multi-site management",
+        "Integrate OpenRouter AI",
+        "Multi-source Crawler: OPhim, Maccms, TMDB, VgoShare"
       ],
       "downloads": {
         "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
