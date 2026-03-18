@@ -1,6 +1,20 @@
 {
-  "latest": "v1.2.0",
+  "latest": "v1.3.0",
   "releases": [
+    {
+      "version": "v1.3.0",
+      "date": "2026-03-19",
+      "changelog": [
+        "Nâng cấp Bảo mật cấp Enterprise",
+        "Khắc phục lỗ hổng Cache Poisoning và chống tấn công DDoS tại API danh sách phim",
+        "Tối ưu hóa Hiệu năng & Khắc phục OOM",
+        "Giới hạn truy vấn tại API phim liên quan, ngăn chặn Full Table Scan và tràn RAM"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      }
+    },
     {
       "version": "v1.2.0",
       "date": "2026-03-19",
