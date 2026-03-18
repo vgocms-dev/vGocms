@@ -1,6 +1,23 @@
 {
-  "latest": "v1.3.0",
+  "latest": "v1.3.1",
   "releases": [
+    {
+      "version": "v1.3.1",
+      "date": "2026-03-19",
+      "changelog": [
+        "Optimize AI SEO Generator: Add Incremental Update & Auto-save feature",
+        "Improve AI reliability: Generate SEO per page type to handle errors gracefully",
+        "Fix OpenRouter Service missing import and add detailed error logging",
+        "Update AI Model to z-ai/glm-5 for better SEO output quality"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.0",
       "date": "2026-03-19",
@@ -15,7 +32,7 @@
         "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
       },
       "templates": {
-        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates.zip"
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
       }
     },
     {
