@@ -5,7 +5,8 @@
       "version": "v1.3.2",
       "date": "2026-03-19",
       "changelog": [
-        "Fix VGo Share License: Implement caching for license validation to prevent rate-limiting on multi-page crawls",
+        "License Management: New interface to manage, update and view license type directly from Update page",
+        "Fix VGo Share License: Implement caching for license validation to prevent rate-limiting",
         "Optimize Dashboard Performance: Increase Overview cache TTL to 10 minutes",
         "Refactor View Logic: Use Vietnam timezone (GMT+7) consistently for day/week/month calculations"
       ],
