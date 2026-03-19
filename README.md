@@ -8,7 +8,7 @@
 
 ## 🔗 Thông Tin Trải Nghiệm (Demo)
 
-* **Trang Quản Trị (Admin)**: [https://demo-cms-vgo.vgo.codes/](https://demo-cms-vgo.vgo.codes/)
+* **Trang Quản Trị (Admin)**: [https://demo-cms-vgo.vgo.codes/admin/login](https://demo-cms-vgo.vgo.codes/admin/login)
     * Tài khoản: `admin`
     * Mật khẩu: `admin123`
 * **Trang Phim (Frontend Demo)**: [https://demo-vgo-1.vgo.codes](https://demo-vgo-1.vgo.codes)
