@@ -1,6 +1,22 @@
 {
-  "latest": "v1.3.1",
+  "latest": "v1.3.2",
   "releases": [
+    {
+      "version": "v1.3.2",
+      "date": "2026-03-19",
+      "changelog": [
+        "Fix VGo Share License: Implement caching for license validation to prevent rate-limiting on multi-page crawls",
+        "Optimize Dashboard Performance: Increase Overview cache TTL to 10 minutes",
+        "Refactor View Logic: Use Vietnam timezone (GMT+7) consistently for day/week/month calculations"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.1",
       "date": "2026-03-19",
