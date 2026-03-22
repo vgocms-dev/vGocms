@@ -1,6 +1,24 @@
 {
-  "latest": "v1.3.3",
+  "latest": "v1.3.4",
   "releases": [
+    {
+      "version": "v1.3.4",
+      "date": "2026-03-23",
+      "changelog": [
+        "Add new VidSrc Crawl menu for fast bulk workflows (range scan, compact job list, and direct import actions)",
+        "Fix VidSrc Crawl page loading issue by registering crawler_vidsrc template in backend template loader",
+        "Improve VidSrc latest import: fill missing movie/TV thumb with poster fallback when backdrop is unavailable",
+        "Fix VidSrc latest episodes: fetch TMDB still image per episode and update missing episode thumbnails",
+        "Update Ophim type-to-kind mapping: hoathinh -> Hoạt Hình, tvshows -> Tvshows, single -> Phim lẻ"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.3",
       "date": "2026-03-22",
