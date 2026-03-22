@@ -1,6 +1,23 @@
 {
-  "latest": "v1.3.4",
+  "latest": "v1.3.5",
   "releases": [
+    {
+      "version": "v1.3.5",
+      "date": "2026-03-23",
+      "changelog": [
+        "Add VidSrc integration to Auto Crawler with dedicated source, feed selection (Latest Movies/TV Shows), and TMDB language controls",
+        "Improve Auto Crawler controls: allow saving job settings while running and strengthen stop behavior with runtime cancel + Redis stop flag",
+        "Refine VidSrc workflow in Auto Crawler: source auto-detection from configured VidSrc domains and stable source synchronization",
+        "Enhance Update page usability by adding pagination for long release history"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.4",
       "date": "2026-03-23",
