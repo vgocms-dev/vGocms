@@ -1,6 +1,22 @@
 {
-  "latest": "v1.3.2",
+  "latest": "v1.3.3",
   "releases": [
+    {
+      "version": "v1.3.3",
+      "date": "2026-03-22",
+      "changelog": [
+        "Extended License: Multi-language support (site languages, translations for menus, taxonomies, SEO, and video content)",
+        "Redis Cache Management: Improved admin tools for cache keys, TTL inspection, and safer flush workflows",
+        "Extended License: Copyright-focused theme with full multi-language compatibility"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.2",
       "date": "2026-03-19",
