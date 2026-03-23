@@ -1,6 +1,21 @@
 {
-  "latest": "v1.3.6",
+  "latest": "v1.3.7",
   "releases": [
+    {
+      "version": "v1.3.7",
+      "date": "2026-03-23",
+      "changelog": [
+        "Admin UI: add Simplified Chinese (zh) language pack — active.zh.json + pages_extended.zh.json embedded in backend-ui",
+        "Admin language switcher: EN / ZH / VI on header, login, and 2FA pages; ?lang=zh and session admin_locale supported (cn alias → zh)"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.6",
       "date": "2026-03-23",
