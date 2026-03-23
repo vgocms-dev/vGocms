@@ -1,6 +1,21 @@
 {
-  "latest": "v1.3.7",
+  "latest": "v1.3.8",
   "releases": [
+    {
+      "version": "v1.3.8",
+      "date": "2026-03-23",
+      "changelog": [
+        "Sync pipeline: add taxonomy exclusion filters (category, country, kind) for Site settings and apply them to both manual \"Sync Videos\" and Auto Sync",
+        "Site Videos UX: upgrade sync confirmation to a rich modal with translated filter details, replacing browser confirm dialog"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.7",
       "date": "2026-03-23",
