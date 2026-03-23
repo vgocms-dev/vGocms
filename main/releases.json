@@ -1,6 +1,24 @@
 {
-  "latest": "v1.3.5",
+  "latest": "v1.3.6",
   "releases": [
+    {
+      "version": "v1.3.6",
+      "date": "2026-03-23",
+      "changelog": [
+        "Add full Anisrc crawler flow: dedicated admin page, scan/search by range, and direct start crawl from compact job list",
+        "Enable dynamic Anisrc source management via crawl_sources (add/edit/delete) and auto-seed default source https://anisrc.top on first SQL initialization",
+        "Improve Anisrc episode parsing to support pipe format (ep|url), preserve canonical anisrc episode links, and normalize malformed wrappers",
+        "Fix Anisrc episode URL normalization to reject external hosts (e.g. ssplay), prefer anisrc paths, and remove trailing .html suffix",
+        "Extend Auto Crawler Anisrc options with TMDB preference + language controls while keeping Anisrc/Ophim matching by slug and TMDB/VidSrc by tmdb_id"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.5",
       "date": "2026-03-23",
