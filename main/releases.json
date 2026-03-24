@@ -1,6 +1,21 @@
 {
-  "latest": "v1.3.8",
+  "latest": "v1.3.9",
   "releases": [
+    {
+      "version": "v1.3.9",
+      "date": "2026-03-24",
+      "changelog": [
+        "Crawler: fix MySQL FK error fk_videos_kind (Error 1452) when inserting videos — correct Ophim type→kind mapping (single/movie → Movie, tv/series/tvshows → Series, hoathinh → Hoạt Hình) and align TMDB/MacCMS/Anisrc kind slugs",
+        "Crawler: harden GetOrCreateTaxonomy to avoid invalid kind_id on unique/race conflicts; fallback kind_id null or 0 to taxonomy kind movie before save"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.8",
       "date": "2026-03-23",
