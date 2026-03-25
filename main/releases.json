@@ -1,6 +1,22 @@
 {
-  "latest": "v1.3.9",
+  "latest": "v1.4.0",
   "releases": [
+    {
+      "version": "v1.4.0",
+      "date": "2026-03-25",
+      "changelog": [
+        "Backup: implement automated data backup and S3 storage support",
+        "Anisrc crawler: upgrade data collection, support 'Việt Sub/Thuyết Minh' server classification and Kind customization",
+        "System: optimize SEO sitemap and fix user-reported issues"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.3.9",
       "date": "2026-03-24",
