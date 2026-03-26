@@ -1,6 +1,20 @@
 {
-  "latest": "v1.4.0",
+  "latest": "v1.4.1",
   "releases": [
+    {
+      "version": "v1.4.1",
+      "date": "2026-03-26",
+      "changelog": [
+        "Crawler: fix 'cannot unmarshal array into Go struct field OphimTaxonomy.id' error by handling dynamic taxonomy ID types (string/array) from Ophim API"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v1.4.0",
       "date": "2026-03-25",
