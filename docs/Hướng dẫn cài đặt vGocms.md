@@ -49,7 +49,7 @@ cd /www/wwwroot/vgocms-admin
 ### Chạy Script Cài đặt
 Thực thi lệnh sau để bắt đầu quá trình cài đặt từ xa:
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/setup.sh)
+curl -fsSL https://raw.githubusercontent.com/vgocms-dev/vGocms/main/setup.sh -o setup.sh && bash setup.sh
 ```
 
 ---

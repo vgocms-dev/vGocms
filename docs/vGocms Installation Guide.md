@@ -49,7 +49,7 @@ cd /www/wwwroot/vgocms-admin
 ### Run the Installation Script
 Execute the following command to start the remote installation process:
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/setup.sh)
+curl -fsSL https://raw.githubusercontent.com/vgocms-dev/vGocms/main/setup.sh -o setup.sh && bash setup.sh
 ```
 
 ---
