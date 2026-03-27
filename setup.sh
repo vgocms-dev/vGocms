@@ -64,10 +64,6 @@ check_dependencies() {
     done
 }
 
-get_public_ip() {
-    curl -s ifconfig.me || hostname -I | awk '{print $1}'
-}
-
 setup_binary() {
     if is_vi; then
         echo "--- Đang kiểm tra kiến trúc hệ thống ---"
@@ -161,19 +157,27 @@ setup_env() {
         echo ""
     fi
 
-    read -r -p "DB_HOST [localhost]: " DB_HOST
+    if is_vi; then
+        read -r -p "DB_HOST [localhost] (Bấm Enter để mặc định): " DB_HOST
+    else
+        read -r -p "DB_HOST [localhost] (Press Enter for default): " DB_HOST
+    fi
     DB_HOST=${DB_HOST:-localhost}
 
-    read -r -p "DB_PORT [3306]: " DB_PORT
+    if is_vi; then
+        read -r -p "DB_PORT [3306] (Bấm Enter để mặc định): " DB_PORT
+    else
+        read -r -p "DB_PORT [3306] (Press Enter for default): " DB_PORT
+    fi
     DB_PORT=${DB_PORT:-3306}
 
     read -r -p "DB_USER [root]: " DB_USER
     DB_USER=${DB_USER:-root}
 
     if is_vi; then
-        read -r -s -p "DB_PASS (mật khẩu MySQL): " DB_PASS
+        read -r -p "DB_PASS (mật khẩu MySQL): " DB_PASS
     else
-        read -r -s -p "DB_PASS (MySQL password): " DB_PASS
+        read -r -p "DB_PASS (MySQL password): " DB_PASS
     fi
     echo ""
 
@@ -333,7 +337,6 @@ EOF
 }
 
 show_finish_message() {
-    PUBLIC_IP=$(get_public_ip)
 
     echo ""
     echo "============================================================"
@@ -341,31 +344,31 @@ show_finish_message() {
     if is_vi; then
         echo " CÀI ĐẶT THÀNH CÔNG!"
         echo "============================================================"
-        echo "Ứng dụng đang chạy tại: http://$PUBLIC_IP:$APP_PORT"
+        echo "Ứng dụng đang chạy tại: http://127.0.0.1:$APP_PORT"
         echo ""
         echo "BƯỚC TIẾP THEO (Cấu hình domain trên aaPanel):"
         echo "1. Vào aaPanel -> Website -> Proxy Project -> Add Proxy."
-        echo "2. Ô Target nhập: https://127.0.0.1:$APP_PORT"
+        echo "2. Ô Target nhập: http://127.0.0.1:$APP_PORT"
         echo "3. Domain name: nhập domain admin / api quản lý của bạn."
         echo "4. Nhấn Confirm để xác nhận."
         echo "5. Sau đó vào SSL để cấp SSL R13 cho domain."
         echo ""
         echo "Ví dụ Target:"
-        echo "  https://127.0.0.1:$APP_PORT"
+        echo "  http://127.0.0.1:$APP_PORT"
     else
         echo " INSTALLATION COMPLETED SUCCESSFULLY!"
         echo "============================================================"
-        echo "Application is running at: http://$PUBLIC_IP:$APP_PORT"
+        echo "Application is running at: http://127.0.0.1:$APP_PORT"
         echo ""
         echo "NEXT STEP (Configure domain in aaPanel):"
         echo "1. Go to aaPanel -> Website -> Proxy Project -> Add Proxy."
-        echo "2. In the Target field, enter: https://127.0.0.1:$APP_PORT"
+        echo "2. In the Target field, enter: http://127.0.0.1:$APP_PORT"
         echo "3. Domain name: enter your admin / management API domain."
         echo "4. Click Confirm to save."
         echo "5. Then open the SSL section and issue SSL R13 for the domain."
         echo ""
         echo "Target example:"
-        echo "  https://127.0.0.1:$APP_PORT"
+        echo "  http://127.0.0.1:$APP_PORT"
     fi
 
     echo "============================================================"
