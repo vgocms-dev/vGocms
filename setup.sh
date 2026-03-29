@@ -139,6 +139,7 @@ setup_env() {
         echo "  - DB_USER: tài khoản đăng nhập MySQL, ví dụ root."
         echo "  - DB_PASS: mật khẩu MySQL."
         echo "  - DB_NAME: tên database bạn muốn dùng cho vGocms."
+        echo "  - Lưu ý: Cẩn thận khi dán bằng chuột phải để tránh bị nhảy dữ liệu qua nhiều dòng."
         echo "  - Chỉ cần bấm Enter nếu muốn dùng giá trị mặc định ở trong ngoặc []."
         echo ""
     else
@@ -157,32 +158,62 @@ setup_env() {
         echo ""
     fi
 
-    if is_vi; then
-        read -r -p "DB_HOST [localhost] (Bấm Enter để mặc định): " DB_HOST
-    else
-        read -r -p "DB_HOST [localhost] (Press Enter for default): " DB_HOST
-    fi
-    DB_HOST=${DB_HOST:-localhost}
+    while true; do
+        if is_vi; then
+            read -r -p "DB_HOST [localhost] (Bấm Enter để mặc định): " DB_HOST
+        else
+            read -r -p "DB_HOST [localhost] (Press Enter for default): " DB_HOST
+        fi
+        DB_HOST=${DB_HOST:-localhost}
 
-    if is_vi; then
-        read -r -p "DB_PORT [3306] (Bấm Enter để mặc định): " DB_PORT
-    else
-        read -r -p "DB_PORT [3306] (Press Enter for default): " DB_PORT
-    fi
-    DB_PORT=${DB_PORT:-3306}
+        if is_vi; then
+            read -r -p "DB_PORT [3306] (Bấm Enter để mặc định): " DB_PORT
+        else
+            read -r -p "DB_PORT [3306] (Press Enter for default): " DB_PORT
+        fi
+        DB_PORT=${DB_PORT:-3306}
 
-    read -r -p "DB_USER [root]: " DB_USER
-    DB_USER=${DB_USER:-root}
+        read -r -p "DB_USER [root]: " DB_USER
+        DB_USER=${DB_USER:-root}
 
-    if is_vi; then
-        read -r -p "DB_PASS (mật khẩu MySQL): " DB_PASS
-    else
-        read -r -p "DB_PASS (MySQL password): " DB_PASS
-    fi
-    echo ""
+        if is_vi; then
+            read -r -p "DB_PASS (mật khẩu MySQL): " DB_PASS
+        else
+            read -r -p "DB_PASS (MySQL password): " DB_PASS
+        fi
+        echo ""
 
-    read -r -p "DB_NAME [videogo]: " DB_NAME
-    DB_NAME=${DB_NAME:-videogo}
+        read -r -p "DB_NAME [videogo]: " DB_NAME
+        DB_NAME=${DB_NAME:-videogo}
+
+        echo ""
+        if is_vi; then
+            echo "--- Kiểm tra lại cấu hình MySQL ---"
+            echo "Host: $DB_HOST"
+            echo "Port: $DB_PORT"
+            echo "User: $DB_USER"
+            echo "Pass: $DB_PASS"
+            echo "Name: $DB_NAME"
+            echo "------------------------------------"
+            read -r -p "Thông tin trên đúng chưa? (y/n) [y]: " confirm_db
+        else
+            echo "--- Verify MySQL Config ---"
+            echo "Host: $DB_HOST"
+            echo "Port: $DB_PORT"
+            echo "User: $DB_USER"
+            echo "Pass: $DB_PASS"
+            echo "Name: $DB_NAME"
+            echo "---------------------------"
+            read -r -p "Is the above information correct? (y/n) [y]: " confirm_db
+        fi
+        confirm_db=${confirm_db:-y}
+        if [[ "$confirm_db" =~ ^[Yy]$ ]]; then
+            break
+        fi
+        echo ""
+        if is_vi; then echo "Đang nhập lại cấu hình MySQL..."; else echo "Restarting MySQL configuration..."; fi
+        echo ""
+    done
 
     echo ""
     if is_vi; then
@@ -206,7 +237,7 @@ setup_env() {
     read -r -p "REDIS_ADDR [localhost:6379]: " REDIS_ADDR
     REDIS_ADDR=${REDIS_ADDR:-localhost:6379}
 
-    read -r -s -p "REDIS_PASS []: " REDIS_PASS
+    read -r -p "REDIS_PASS []: " REDIS_PASS
     echo ""
 
     read -r -p "REDIS_DB [0]: " REDIS_DB
