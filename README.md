@@ -1,3 +1,46 @@
+## 🌐 Language Navigation
+
+### 🇺🇸 English
+- [vGocms Installation Guide](https://github.com/vgocms-dev/vGocms/wiki/vGocms-Installation-Guide)
+- [vGocms systemd Guide and Service Management](https://github.com/vgocms-dev/vGocms/wiki/vGocms-systemd-Guide-and-Service-Management)
+- [vGocms YouTube channel — video tutorials](https://www.youtube.com/@vGocms)
+
+### 🇻🇳 Tiếng Việt
+- [Hướng dẫn cài đặt vGocms](https://github.com/vgocms-dev/vGocms/wiki/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-vGocms)
+- [Hướng dẫn kiểm tra systemd và quản lý vGocms trên VPS](https://github.com/vgocms-dev/vGocms/wiki/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-ki%E1%BB%83m-tra-systemd-v%C3%A0-qu%E1%BA%A3n-l%C3%BD--vGocms-tr%C3%AAn-VPS)
+- [Kênh YouTube hướng dẫn vGocms](https://www.youtube.com/@vGocms)
+
+---
+
+## 🚀 Start Here
+
+### New installation
+- Install aaPanel
+- Install Nginx, MariaDB/MySQL, Redis
+- Run the vGocms setup script
+- Configure domain with Proxy Project
+- Enable SSL R13
+- Verify the vGocms systemd service
+
+### Cài mới
+- Cài aaPanel
+- Cài Nginx, MariaDB/MySQL, Redis
+- Chạy script cài đặt vGocms
+- Cấu hình domain với Proxy Project
+- Bật SSL R13
+- Kiểm tra dịch vụ systemd của vGocms
+
+---
+
+## 📚 Documentation Index
+
+| Category | English | Tiếng Việt |
+|---|---|---|
+| Installation | [Open](https://github.com/vgocms-dev/vGocms/wiki/vGocms-Installation-Guide) | [Mở](https://github.com/vgocms-dev/vGocms/wiki/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-vGocms) |
+| Service Management | [Open](https://github.com/vgocms-dev/vGocms/wiki/vGocms-systemd-Guide-and-Service-Management) | [Mở](https://github.com/vgocms-dev/vGocms/wiki/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-ki%E1%BB%83m-tra-systemd-v%C3%A0-qu%E1%BA%A3n-l%C3%BD--vGocms-tr%C3%AAn-VPS) |
+| YouTube (tutorials) | [Open](https://www.youtube.com/@vGocms) | [Mở](https://www.youtube.com/@vGocms) |
+
+
 # Tiếng Việt
 
 # vGocms - Hệ Thống Quản Trị Nội Dung Phim & Video Hiệu Năng Cao (Multi-Site & AI Powered)
@@ -12,6 +55,12 @@
     * Tài khoản: `admin`
     * Mật khẩu: `admin123`
 * **Trang Phim (Frontend Demo)**: [https://demo-vgo-1.vgo.codes](https://demo-vgo-1.vgo.codes)
+
+---
+
+## 📺 Kênh YouTube hướng dẫn
+
+* **YouTube**: [youtube.com/@vGocms](https://www.youtube.com/@vGocms)
 
 ---
 
@@ -93,6 +142,12 @@
 
 ---
 
+## 📺 YouTube tutorials
+
+* **Channel**: [@vGocms on YouTube](https://www.youtube.com/@vGocms)
+
+---
+
 ## 🚀 Deep Dive Features
 
 ### 1. Multi-Site Management & Automation
@@ -168,6 +223,12 @@
     * 账号: `admin`
     * 密码: `admin123`
 * **前端演示 (Frontend Demo)**: [https://demo-vgo-1.vgo.codes/](https://demo-vgo-1.vgo.codes/)
+
+---
+
+## 📺 YouTube 教程频道
+
+* **YouTube**: [youtube.com/@vGocms](https://www.youtube.com/@vGocms)
 
 ---
 
