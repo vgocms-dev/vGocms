@@ -1,6 +1,21 @@
 {
-  "latest": "v2.0.1",
+  "latest": "v2.0.2",
   "releases": [
+    {
+      "version": "v2.0.2",
+      "date": "2026-03-30",
+      "changelog": [
+        "Admin: bottom-right dock — switch tab vs classic mode, scroll to top/bottom",
+        "Admin: Fix a few UI issues with the new workspace mode"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v2.0.1",
       "date": "2026-03-30",
