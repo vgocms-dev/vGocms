@@ -1,6 +1,23 @@
 {
-  "latest": "v2.0.0",
+  "latest": "v2.0.1",
   "releases": [
+    {
+      "version": "v2.0.1",
+      "date": "2026-03-30",
+      "changelog": [
+        "Theme install: fix npm build on production servers",
+        "Admin: fix sites page script when there are no sites yet",
+        "Admin: fix menu delete/rename in sidebar (site + global menu manager)",
+        "Admin workspace: Dashboard link works when already on the workspace page"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v2.0.0",
       "date": "2026-03-29",
