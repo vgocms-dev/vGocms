@@ -1,6 +1,40 @@
 {
-  "latest": "v2.0.4",
+  "latest": "v3.0.0",
   "releases": [
+    {
+      "version": "v3.0.0",
+      "date": "2026-04-06",
+      "changelog": [
+        "Themes (catalog): update an installed catalog theme from the admin when a newer package is available, with clearer progress while the update runs",
+        "Themes (your ZIP): upload a new ZIP to refresh the site theme without losing saved settings; we stopped showing a misleading “update available” flag tied to files normal admins cannot edit",
+        "Themes: the installed-sites list includes a quick way to open the ZIP refresh flow for sites you installed from a ZIP",
+        "Themes (wizard): on the last step, only “Install & build” appears for a first install; after a successful install, maintenance actions show up and the install button is hidden for simpler day-to-day use",
+        "Miscellaneous fixes from recent user feedback on themes and installation"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
+    {
+      "version": "v2.0.5",
+      "date": "2026-04-05",
+      "changelog": [
+        "Fixed regressions from the v2.0.4 patch",
+        "Added tag sitemaps (paginated sitemap-tag URLs and backend/API support)",
+        "Improved AI handling for language translation"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v2.0.4",
       "date": "2026-04-03",
