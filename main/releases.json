@@ -1,6 +1,23 @@
 {
-  "latest": "v3.0.1",
+  "latest": "v3.0.2",
   "releases": [
+    {
+      "version": "v3.0.2",
+      "date": "2026-04-10",
+      "changelog": [
+        "Site API: updates and optimizations",
+        "Theme optimizations",
+        "Additional new features",
+        "Fixes for reported issues"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v3.0.1",
       "date": "2026-04-06",
