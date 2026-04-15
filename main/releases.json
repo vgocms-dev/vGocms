@@ -1,6 +1,24 @@
 {
-  "latest": "v3.0.2",
+  "latest": "v3.0.3",
   "releases": [
+    {
+      "version": "v3.0.3",
+      "date": "2026-04-15",
+      "changelog": [
+        "Video model: TMDBVoteAverage and IMDBVoteAverage fields",
+        "Crawlers: map TMDB vote_average on TMDB, Ophim (TMDB enrich), Anisrc, and Vgo sync paths",
+        "TMDB re-crawl updates vote scores on existing videos; optional IMDB id fill from TMDB when missing",
+        "Safer updates: avoid wiping IMDB id or TMDB score with empty/zero payloads where applicable",
+        "Scan API: raise max page range to 5000"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v3.0.2",
       "date": "2026-04-10",
