@@ -1,6 +1,23 @@
 {
-  "latest": "v3.0.3",
+  "latest": "v4.0.0",
   "releases": [
+    {
+      "version": "v4.0.0",
+      "date": "2026-04-19",
+      "changelog": [
+        "Add movie showtime schedule",
+        "Add movie notifications",
+        "Upgrade security features for the admin panel",
+        "Add customizable presentation for home page taxonomy sections"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v3.0.3",
       "date": "2026-04-15",
