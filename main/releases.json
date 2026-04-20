@@ -1,6 +1,23 @@
 {
-  "latest": "v4.0.0",
+  "latest": "v4.0.1",
   "releases": [
+    {
+      "version": "v4.0.1",
+      "date": "2026-04-20",
+      "changelog": [
+        "Admin: quick AI video create — classification and content-style options in step 1; AI draft uses selected taxonomy and style",
+        "AI draft API: accepts taxonomy IDs and ai_style for better titles, SEO, and tags",
+        "Quick-create UI: clearer active states in dark mode for stepper and style buttons",
+        "Adult (18+) draft prompts tuned for explicit adult-catalog metadata"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v4.0.0",
       "date": "2026-04-19",
