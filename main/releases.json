@@ -1,6 +1,20 @@
 {
-  "latest": "v4.0.2",
+  "latest": "v4.0.3",
   "releases": [
+    {
+      "version": "v4.0.3",
+      "date": "2026-04-21",
+      "changelog": [
+        "Admin: admin interface and layout improvements"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v4.0.2",
       "date": "2026-04-20",
