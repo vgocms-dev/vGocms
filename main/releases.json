@@ -1,6 +1,22 @@
 {
-  "latest": "v4.0.3",
+  "latest": "v4.0.4",
   "releases": [
+    {
+      "version": "v4.0.4",
+      "date": "2026-04-22",
+      "changelog": [
+        "Ophim: do not persist poster or backdrop URLs when no image is available",
+        "Menus: renaming a menu item now updates its slug to stay in sync",
+        "Crawler: TMDB duplicate checks now cover both movies and TV series so the correct title can be created when the same ID exists only in the other type"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v4.0.3",
       "date": "2026-04-21",
