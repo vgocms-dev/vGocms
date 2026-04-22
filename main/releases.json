@@ -1,6 +1,22 @@
 {
-  "latest": "v4.0.4",
+  "latest": "v4.0.5",
   "releases": [
+    {
+      "version": "v4.0.5",
+      "date": "2026-04-22",
+      "changelog": [
+        "Themes: advanced env JSON stays in sync with both .env.local and .env.production.local; values are merged from template defaults, package/ZIP, database, manual file edits, and the admin UI with a clear priority",
+        "Themes: install, catalog/embedded update, ZIP update, rebuild, and save-env paths import disk .env where needed and persist merged env JSON to the database",
+        "Themes API: ZIP theme update endpoint returns clearer errors when the site has no theme yet or uses a different catalog theme (install from the wizard instead of the update action)"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v4.0.4",
       "date": "2026-04-22",
