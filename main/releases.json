@@ -1,6 +1,22 @@
 {
-  "latest": "v4.0.5",
+  "latest": "v4.0.6",
   "releases": [
+    {
+      "version": "v4.0.6",
+      "date": "2026-04-27",
+      "changelog": [
+        "File Manager: fixed API route resolution when the admin path is customized, ensuring all file operations continue to work with non-default admin prefixes",
+        "Admin UI: delivered a refined visual refresh with targeted CSS enhancements for cleaner layout, improved spacing, and more consistent styling across management pages",
+        "Update workflow: improved the system update pipeline to support theme-only updates from update URLs and provide a smoother, more reliable installation experience"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates/full.zip"
+      }
+    },
     {
       "version": "v4.0.5",
       "date": "2026-04-22",
