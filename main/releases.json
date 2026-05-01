@@ -1,6 +1,22 @@
 {
-  "latest": "v5.0.0",
+  "latest": "v5.0.1",
   "releases": [
+    {
+      "version": "v5.0.1",
+      "date": "2026-05-01",
+      "changelog": [
+        "Admin: duplicate an existing site from the sites list with a new API slug; copies videos, menus, SEO, ads, filters, and related settings",
+        "Duplicate skips theme install/deploy fields and AI or translation job queues; configure theme separately on the new site",
+        "Same license rules as creating a site (e.g. Free tier still one site total)"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates.zip"
+      }
+    },
     {
       "version": "v5.0.0",
       "date": "2026-04-30",
