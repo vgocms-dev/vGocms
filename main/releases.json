@@ -1,6 +1,20 @@
 {
-  "latest": "v5.0.2",
+  "latest": "v5.0.20",
   "releases": [
+    {
+      "version": "v5.0.20",
+      "date": "2026-05-02",
+      "changelog": [
+        "Site duplication: resolved duplicate-key races with auto-sync, clearer cloning of site videos and translations, and correct per-site video counts on the admin sites list (removed faulty Redis snapshot)"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates.zip"
+      }
+    },
     {
       "version": "v5.0.2",
       "date": "2026-05-02",
