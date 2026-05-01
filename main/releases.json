@@ -1,6 +1,21 @@
 {
-  "latest": "v5.0.1",
+  "latest": "v5.0.2",
   "releases": [
+    {
+      "version": "v5.0.2",
+      "date": "2026-05-02",
+      "changelog": [
+        "Site duplication: avoid duplicate key errors on site_videos when the source had overlapping rows; batch inserts for large catalogs",
+        "Minor fixes and stability tweaks"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates.zip"
+      }
+    },
     {
       "version": "v5.0.1",
       "date": "2026-05-01",
