@@ -1,6 +1,22 @@
 {
-  "latest": "v5.0.20",
+  "latest": "v5.0.21",
   "releases": [
+    {
+      "version": "v5.0.21",
+      "date": "2026-05-02",
+      "changelog": [
+        "Site delete: fixed orphan data left behind when deleting a site — now properly removes SEO configs, SEO translations, taxonomy translations, menus, menu items, menu translations, and all AI job/task queues (SEO, taxonomy, menu)",
+        "Site duplication: fixed Error 1062 (duplicate key) on site_videos during clone — orphan rows from a previously failed clone with a recycled site ID are now cleared before batch insert; batch inserts use INSERT IGNORE as a second safety layer",
+        "Site duplication / creation: slug conflict now returns HTTP 409 Conflict instead of 500 Internal Server Error when two concurrent requests race for the same slug"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      },
+      "templates": {
+        "backend-ui": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/templates.zip"
+      }
+    },
     {
       "version": "v5.0.20",
       "date": "2026-05-02",
