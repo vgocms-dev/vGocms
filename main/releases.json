@@ -2,7 +2,7 @@
   "latest": "v5.0.23",
   "releases": [
     {
-      "version": "v5.0.23",
+      "version": "v5.0.3",
       "date": "2026-05-02",
       "changelog": [
         "Site admin / Homepage taxonomy: drag-and-drop reordering for homepage section rows (grip handle); a clear insertion line shows whether the row will land above or below the target; order is persisted when you save and is reflected in GET /api/sites/:slug/home-taxonomy-rows"
