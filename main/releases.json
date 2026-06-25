@@ -1,6 +1,29 @@
 {
-  "latest": "v5.0.3",
+  "latest": "v6.0.0",
   "releases": [
+    {
+      "version": "v6.0.0",
+      "date": "2026-06-25",
+      "changelog": [
+        "IMPORTANT — Before updating: this release changes the entire project. Back up your vGo database before clicking Update. Fresh installs are supported. For v6.x announcements, join https://t.me/vgocms",
+        "Admin UI: full redesign with 14 new admin themes to choose from; your selection is saved in the database",
+        "Performance: system-wide speed improvements; entire vGocms codebase restructured for a leaner, more optimized architecture",
+        "Security: new protection mechanisms for the admin panel and site APIs",
+        "Notifications: fixed user notification delivery; notifications are now limited to new movies, new episodes, or episode edits only",
+        "System menu: manage and sync Cloudflare and Google Search Console from one place",
+        "Cloudflare: add domains, edit DNS records, purge cache, update security settings, and more",
+        "Google Search Console: real search statistics from Google charts, sitemap management, remote sitemap analysis, and more",
+        "Overview: brand-new dashboard with detailed system stats, Search Console insights, and security assessments",
+        "Security: project-wide security model overhauled",
+        "Backend User: updated for vGocms 6.0.0 compatibility",
+        "Backend User: pre-save movie validation before writing to the system; faster user processing",
+        "100+ user-reported fixes and patches from earlier releases"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64"
+      }
+    },
     {
       "version": "v5.0.3",
       "date": "2026-05-02",
