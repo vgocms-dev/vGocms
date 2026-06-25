@@ -22,7 +22,7 @@
       "downloads": {
         "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
         "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
-        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_windows_amd64.exe"
+        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
       }
     },
     {
