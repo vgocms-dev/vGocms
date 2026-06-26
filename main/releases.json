@@ -2,6 +2,34 @@
   "latest": "v6.0.0",
   "releases": [
     {
+      "latest": "v6.1.0",
+      "releases": [
+        {
+          "version": "v6.1.0",
+          "date": "2026-06-26",
+          "changelog": [
+            "Player System: added built-in Artplayer and JW Player support with dedicated embed URLs and custom player domains",
+            "Player Security: player domains now allow embed pages only and block admin pages, internal APIs, login routes, and other system endpoints",
+            "Automatic Embeds: HLS links are automatically converted into player embed links when a custom player is enabled",
+            "VIP Servers: added dedicated VIP player servers for each original video server; enabled VIP servers are returned first by the Site API",
+            "Large Libraries: optimized player management, manual HLS sources, and episode embed lists with database pagination for movies containing thousands of episodes",
+            "Player Advertising: added HTML and JavaScript ads with display timing, duration, repeat rules, quick enable or disable, and editing support",
+            "Admin Guide: added a first-time interactive walkthrough with language selection, theme selection, highlighted controls, automatic menu opening, and keyboard navigation",
+            "Languages: completed Player System and Admin Guide translations for Vietnamese, English, Simplified Chinese, and Thai",
+            "Performance: significantly reduced Player management page load time and cached system information for faster dashboard reloads",
+            "Windows Updates: Windows users now receive a direct download link and clear instructions for replacing vgocms_windows_amd64.exe",
+            "Episode Editor: fixed bulk episode insertion so empty episode rows are reused correctly instead of skipping episode numbers",
+            "Admin UI: improved Player layouts, removed unnecessary movie thumbnails, and added multiple usability and stability fixes"
+          ],
+          "downloads": {
+            "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+            "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
+            "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
+          }
+        }
+      ]
+    },
+    {
       "version": "v6.0.0",
       "date": "2026-06-25",
       "changelog": [
@@ -19,6 +47,7 @@
         "Backend User: pre-save movie validation before writing to the system; faster user processing",
         "100+ user-reported fixes and patches from earlier releases"
       ],
+ 
       "downloads": {
         "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
         "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
