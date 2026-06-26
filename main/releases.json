@@ -1,5 +1,5 @@
 {
-  "latest": "v6.0.0",
+  "latest": "v6.1.0",
   "releases": [
     {
       "latest": "v6.1.0",
@@ -31,7 +31,7 @@
     },
     {
       "version": "v6.0.0",
-      "date": "2026-06-25",
+      "date": "2026-06-15",
       "changelog": [
         "IMPORTANT — Before updating: this release changes the entire project. Back up your vGo database before clicking Update. Fresh installs are supported. For v6.x announcements, join https://t.me/vgocms",
         "Admin UI: full redesign with 14 new admin themes to choose from; your selection is saved in the database",
