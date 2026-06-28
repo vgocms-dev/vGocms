@@ -1,6 +1,18 @@
 {
-  "latest": "v6.1.0",
+  "latest": "v6.2.0",
   "releases": [
+    {
+      "version": "v6.2.0",
+      "date": "2026-06-28",
+      "changelog": [
+        "Fixed an issue causing the initial installation to incorrectly show version 1.0.0."
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
+        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
+      }
+    },
     {
       "version": "v6.1.0",
       "date": "2026-06-26",
