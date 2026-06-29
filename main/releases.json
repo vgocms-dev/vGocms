@@ -1,6 +1,28 @@
 {
-  "latest": "v6.4.0",
+  "latest": "v6.5.0",
   "releases": [
+    {
+      "version": "v6.5.0",
+      "date": "2026-07-01",
+      "changelog": [
+        "ViCDN Crawler: new admin page to manage ViCDN sources, scan movie and TV listings by page range, queue crawl jobs, and import episodes from the ViCDN API",
+        "Auto Crawler: ViCDN is now supported as a crawl source type for scheduled background scans",
+        "Fresh installs: seed a default Vicdn crawl source (https://vicdn.cc) during setup",
+        "Video Editor: cast & crew tab with per-actor character roles and separate director assignments — pick people from the database or enter roles manually (full and quick create forms)",
+        "Crawlers: TMDB credits import now merges character names for actors, detects voice roles, and applies the same credits pipeline to Anisrc crawls",
+        "Theme Wizard: when Install & Build starts, the install button is disabled and the build log panel is highlighted so users see progress immediately",
+        "Theme Wizard: Save env, Rebuild, and Restart are disabled while theme status is installing or building to prevent overlapping jobs",
+        "Theme Admin i18n: theme install logs, API errors, env field labels, and catalog messages follow the selected admin language instead of hardcoded Vietnamese",
+        "System Update: update check, download, and rollback API messages are localized to the admin language",
+        "Theme Env: added NEXT_IMAGE_ALLOW_LOCAL_IP option in the marketplace env template for Next.js themes that load images from localhost or private IPs in production",
+        "Languages: ViCDN crawler page, video cast-role UI, theme admin strings, and update API messages translated for Vietnamese, English, Simplified Chinese, and Thai"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
+        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
+      }
+    },
     {
       "version": "v6.4.0",
       "date": "2026-06-30",
