@@ -1,6 +1,26 @@
 {
-  "latest": "v6.2.0",
+  "latest": "v6.3.0",
   "releases": [
+    {
+      "version": "v6.3.0",
+      "date": "2026-06-29",
+      "changelog": [
+        "Network & ISP Monitor: new admin page to detect site blocking through ISP proxies, run server-side background checks, track latency, and review full check history with filters",
+        "Network Monitor: manage ISP proxies with Google health verification before save, scheduled checks, alive/dead status, and active alerts when sites are blocked or restricted",
+        "Network Monitor: Regular+ plans can add external URLs outside the VGOCMS site list; Free plans can still monitor all managed sites",
+        "Manual HLS: upgraded flat manual sources into film-based libraries with grouped episodes, film titles, paginated source lists, and film-wide playback settings",
+        "Manual HLS: bulk import supports multi-line URLs or Name|URL rows, with automatic episode naming (Episode 01, Episode 02, …)",
+        "Player Playback: Netflix-style skip intro, skip outro, and auto-next settings for CMS videos/episodes and manual HLS films/sources",
+        "Embed Player: autoplay on load, DevTools detection overlay on player domains, and smarter skip-outro visibility on single-source or final-episode playback",
+        "Player Tools: export embed URLs as Name | Embed URL for manual HLS films and for CMS movies in the Player video list",
+        "Languages: completed Network Check page translations for Vietnamese, English, Simplified Chinese, and Thai, including all dynamic UI messages"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
+        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
+      }
+    },
     {
       "version": "v6.2.0",
       "date": "2026-06-28",
