@@ -1,6 +1,33 @@
 {
-  "latest": "v6.5.0",
+  "latest": "v6.7.0",
   "releases": [
+    {
+      "version": "v6.7.0",
+      "date": "2026-07-08",
+      "changelog": [
+        "Crawler Việt: fixed the KKphim (PhimAPI) crawl source for the new API response format — supports Ophim-style detail payloads (status, data.item, APP_DOMAIN_CDN_IMAGE), flexible episode_total parsing (string or number), and fallback to the legacy movie/episodes layout",
+        "Mobile App: new Site admin Android App tab to configure the Flutter client for Android and iOS — app updates (version, download URL), multilingual descriptions, in-app announcements, poster/video/short-video ads, and a cached public android-manifest API endpoint"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
+        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
+      }
+    },
+    {
+      "version": "v6.6.0",
+      "date": "2026-07-04",
+      "changelog": [
+        "Crawler Việt: added KKphim as a supported crawl source — the client auto-detects Ophim vs KKphim API format from the domain and normalizes movie list, detail, and category responses into the existing crawl pipeline",
+        "Crawler: renamed the Ophim crawler section to Crawler Việt in the admin sidebar and crawl pages to reflect support for multiple Vietnamese movie APIs (Ophim, KKphim, …)",
+        "TV App: new Site admin tab to configure a TV Box manifest — app updates (version, APK download URL), multilingual descriptions, in-app announcements, poster/video/short-video ads, and a cached public manifest API endpoint for the Android TV client"
+      ],
+      "downloads": {
+        "linux_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_amd64",
+        "linux_arm64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/main/main/update/vgocms_linux_arm64",
+        "windows_amd64": "https://raw.githubusercontent.com/vgocms-dev/vGocms/refs/heads/main/main/update/vgocms_windows_amd64.exe"
+      }
+    },
     {
       "version": "v6.5.0",
       "date": "2026-07-01",
